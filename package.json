@@ -1,0 +1,32 @@
+{
+  "name": "simple-password-generator",
+  "version": "1.0.0",
+  "description": "Simple random password generator",
+  "main": "index.js",
+  "scripts": {
+    "test": "tap --coverage test/index.js",
+    "posttest": "standard --fix"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/CentroneF/simple-password-generator.git"
+  },
+  "keywords": [],
+  "author": "Francesco Centrone",
+  "license": "Apache-2.0",
+  "bugs": {
+    "url": "https://github.com/CentroneF/simple-password-generator/issues"
+  },
+  "homepage": "https://github.com/CentroneF/simple-password-generator#readme",
+  "dependencies": {
+    "adjectives": "^1.0.2",
+    "animals": "0.0.3",
+    "random-number-in-range": "^1.0.2"
+  },
+  "devDependencies": {
+    "coveralls": "^3.0.0",
+    "nyc": "^11.6.0",
+    "standard": "^11.0.1",
+    "tap": "^11.1.3"
+  }
+}
